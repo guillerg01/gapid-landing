@@ -6,7 +6,7 @@ export default function Home() {
     <main className="w-full h-full font-roboto text-white  bg-[#005C45] relative ">
       <Header></Header>
       <svg
-        className="absolute right-0"
+        className="absolute right-0 top-[70px]"
         width="554"
         height="211"
         viewBox="0 0 554 211"
@@ -119,22 +119,22 @@ export default function Home() {
           </clipPath>
         </defs>
       </svg>
-      <div className="px-20 md:px-32 py-4 w-full h-full flex flex-col pt-[120px]">
+      <div className="px-20 md:px-48 py-4 w-full h-full flex flex-col pt-[200px]">
         <div className=" w-full h-full flex flex-col space-y-6">
-          <h1 className=" font-roboto text-6xl font-bold text-white">
+          <h1 className=" font-roboto text-6xl leading-[75px] font-bold w-full text-white">
             Plataforma para la gestión administrativa del sistema de Programas y
             Proyectos de{" "}
             <span className="text-[#F1B980]">
               Ciencia, Tecnología e Innovación
             </span>
           </h1>
-          <p className="text-white/20 text-2xl w-1/2 text-start font-normal ">
+          <p className="text-white/70 text-2xl w-1/2 text-start font-normal ">
             Plataforma para la gestión administrativa del sistema de Programas y
             Proyectos de Ciencia, Tecnología e Innovación.
           </p>
           <div className="flex flex-row space-x-5 items-center">
             <div className="relative">
-              <button className="p-2 px-4 bg-white rounded-lg text-black pr-8">
+              <button className="p-2 px-4 bg-white text-lg rounded-md text-[#51596C] pr-8">
                 Obtener GAPID{" "}
               </button>
               <svg
@@ -153,7 +153,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="flex flex-row items-center space-x-2">
+            <div className="flex flex-row items-center py-5 space-x-2">
               <span> ¿Qué es GAPID?</span>
               <svg
                 width="18"
@@ -169,8 +169,8 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-row space-x-3 items-start">
-            <div className="flex flex-row  space-x-5">
+          <div className="flex flex-row space-x-14 py-5 items-start">
+            <div className="flex flex-row  items-center space-x-5">
               <svg
                 width="48"
                 height="48"
@@ -192,19 +192,19 @@ export default function Home() {
                   fill="white"
                 />
               </svg>
-              <div className="flex flex-col space-y-1 text-white/70">
+              <div className="flex flex-col  text-white/70">
                 <span className="text-2xl font-medium text-white">7 Programas</span>
                 <span className="text-lg font-normal ">4 nacionales y</span>
                 <span className="text-lg font-normal">3 sectoriales</span>
               </div>
             </div>
-            <div className="flex flex-row  space-x-5">
+            <div className="flex flex-row items-center space-x-5">
              <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.3" d="M10.25 41.5C9.77083 41.5 9.29167 41.3083 8.90833 40.925L5.075 37.0917C4.30833 36.325 4.30833 35.175 5.075 34.4083C5.84167 33.6417 7.0875 33.6417 7.75833 34.4083L10.25 36.9L16.575 30.575C17.3417 29.8083 18.4917 29.8083 19.2583 30.575C20.025 31.3417 20.025 32.4917 19.2583 33.2583L11.5917 40.925C11.2083 41.3083 10.7292 41.5 10.25 41.5Z" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 6C5.84315 6 4.5 7.34315 4.5 9V23.7301C6.58972 22.6255 8.97182 22 11.5 22C19.4482 22 25.9526 28.182 26.4672 36H36.5499L42.8427 42.2929C43.4727 42.9229 44.5499 42.4767 44.5499 41.5858V30L44.5 30.0196V9C44.5 7.34315 43.1569 6 41.5 6H7.5ZM11.5 14C10.9477 14 10.5 14.4477 10.5 15V17C10.5 17.5523 10.9477 18 11.5 18H31.5C32.0523 18 32.5 17.5523 32.5 17V15C32.5 14.4477 32.0523 14 31.5 14H11.5Z" fill="white"/>
 </svg>
 
-              <div className="flex flex-col space-y-1 text-white/70">
+              <div className="flex flex-col  text-white/70">
                 <span className="text-2xl font-medium text-white">19 Proyectos</span>
                 <span className="text-lg font-normal ">10- Investigación Aplicada, </span>
                 <span className="text-lg font-normal">  1- Investigación Básica,</span>

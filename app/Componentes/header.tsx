@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex fixed top-0 h-[70px] w-screen flex-row bg-white px-20 md:px-32 justify-between items-center">
+    <header className="flex fixed top-0 h-[70px] w-screen flex-row bg-white px-20 md:px-48 justify-between items-center">
       <svg className="w-36 h-12"
         width="140"
         height="47"
@@ -50,10 +50,10 @@ export default function Header() {
         />
       </svg>
 
-      <div className="flex flex-row font-roboto items-center text-[#51596C] space-x-5 font-normal text-base ">
-        <div className=" flex-row space-x-5 lg:flex hidden">
-          <span>Servicios</span>
-          <span className="">Convocatorias</span>
+      <div className="flex flex-row font-roboto items-center text-[#51596C] space-x-7 font-normal text-[16px] leading-[22px]">
+        <div className=" flex-row space-x-9 lg:flex hidden">
+          <span className="leading-[22px] text-[#008060]">Servicios</span>
+          <span className="leading-[22px]">Convocatorias</span>
           <span>Proveedores</span>
           <span>Precios</span>
               </div>
