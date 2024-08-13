@@ -2,20 +2,64 @@ import React from 'react'
 
 function Page3() {
     return (
-        <div className="px-20 md:px-48 py-4 pt-20 text-black w-full h-full flex flex-col ">
+        <div className="px-20 md:px-48 py-4  text-black w-full h-full flex flex-col ">
             <h2 className="text-[#00221C] text-4xl font-medium w-1/2">
                 The powerful and flexible theme for all kinds of businesses
             </h2>
 
-            <div className="flex flex-row py-5">
-                <div className='flex flex-col space-y-3'>
+            <div className="flex flex-row py-20 gap-5">
+                <div className='flex flex-col space-y-3 '>
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path opacity="0.3" d="M45.6 7.2002C44.16 7.2002 43.2 8.1602 43.2 9.6002V19.2002H33.6V9.6002C33.6 8.1602 32.64 7.2002 31.2 7.2002C29.76 7.2002 28.8 8.1602 28.8 9.6002V19.2002H19.2V9.6002C19.2 8.1602 18.24 7.2002 16.8 7.2002C15.36 7.2002 14.4 8.1602 14.4 9.6002V19.2002H4.8V9.6002C4.8 8.1602 3.84 7.2002 2.4 7.2002C0.96 7.2002 0 8.1602 0 9.6002V45.6002C0 47.0402 0.96 48.0002 2.4 48.0002H45.6C47.04 48.0002 48 47.0402 48 45.6002V9.6002C48 8.1602 47.04 7.2002 45.6 7.2002ZM43.2 24.0002V31.2002H33.6V24.0002H43.2ZM28.8 24.0002V31.2002H19.2V24.0002H28.8ZM28.8 36.0002V43.2002H19.2V36.0002H28.8ZM14.4 24.0002V31.2002H4.8V24.0002H14.4ZM4.8 36.0002H14.4V43.2002H4.8V36.0002ZM33.6 43.2002V36.0002H43.2V43.2002H33.6Z" fill="#008060" />
                         <path d="M45.6 0H2.4C0.96 0 0 0.96 0 2.4V9.6C0 11.04 0.96 12 2.4 12H45.6C47.04 12 48 11.04 48 9.6V2.4C48 0.96 47.04 0 45.6 0Z" fill="#008060" />
                     </svg>
                     <h4 className='text-xl font-medium'>Convocatorias (Eventos) </h4>
-                    <p className='font-normal text-base'>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
-                    <a href="#" className='text-[#008060]'>Link </a>
+                    <p className='font-normal text-base text-[#51596C] text-start'>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+                    <a href="#" className='text-[#008060] font-medium flex flex-row items-center  space-x-3'><span>Link</span>  <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M0.484835 0.734835C0.631282 0.588388 0.868718 0.588388 1.01517 0.734835L5.51516 5.23484C5.66161 5.38128 5.66161 5.61872 5.51516 5.76516L1.01517 10.2652C0.868718 10.4116 0.631282 10.4116 0.484835 10.2652C0.338388 10.1187 0.338388 9.88128 0.484835 9.73483L4.71967 5.5L0.484835 1.26517C0.338388 1.11872 0.338388 0.881282 0.484835 0.734835Z" fill="#008060" />
+                    </svg>
+                    </a>
+                </div>
+                <div className='flex flex-col space-y-3'>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.3" d="M8.10848 30.3964C16.6905 15.5364 27.1565 6.52635 41.8565 4.02835C42.1458 3.97674 42.4432 3.99579 42.7236 4.08387C43.0039 4.17195 43.2588 4.32645 43.4666 4.53424C43.6744 4.74202 43.8289 4.99693 43.917 5.27727C44.0051 5.5576 44.0241 5.85507 43.9725 6.14435C41.4745 20.8444 32.4645 31.3104 17.6045 39.8924L8.10848 30.3964ZM7.63848 34.6744L5.26648 40.8964C5.16855 41.1531 5.14699 41.4327 5.20441 41.7014C5.26182 41.9701 5.39576 42.2165 5.59006 42.4108C5.78436 42.6051 6.03072 42.739 6.29944 42.7964C6.56815 42.8538 6.84774 42.8323 7.10448 42.7344L13.3305 40.3604L7.63848 34.6744ZM33.0005 11.9964C32.4071 11.9964 31.8271 12.1723 31.3338 12.5019C30.8404 12.8316 30.4559 13.3001 30.2288 13.8483C30.0018 14.3965 29.9424 14.9997 30.0581 15.5816C30.1739 16.1636 30.4596 16.6981 30.8792 17.1177C31.2987 17.5372 31.8333 17.823 32.4152 17.9387C32.9972 18.0545 33.6004 17.9951 34.1485 17.768C34.6967 17.5409 35.1653 17.1564 35.4949 16.6631C35.8245 16.1697 36.0005 15.5897 36.0005 14.9964C36.0005 14.2007 35.6844 13.4376 35.1218 12.875C34.5592 12.3124 33.7961 11.9964 33.0005 11.9964Z" fill="#008060" />
+                        <path d="M8.10846 30.3961L4.49446 26.7821C4.3101 26.5978 4.17094 26.3732 4.08791 26.1261C4.00487 25.8789 3.9802 25.6159 4.01585 25.3577C4.0515 25.0994 4.1465 24.8529 4.29338 24.6375C4.44026 24.4221 4.63505 24.2436 4.86246 24.1161L18.3065 16.5781C14.3471 20.7432 10.9214 25.3849 8.10846 30.3961ZM17.6005 39.8881L21.2145 43.5021C21.3988 43.6865 21.6234 43.8256 21.8705 43.9087C22.1176 43.9917 22.3806 44.0164 22.6389 43.9807C22.8972 43.9451 23.1437 43.8501 23.3591 43.7032C23.5745 43.5563 23.7529 43.3615 23.8805 43.1341L31.4185 29.6881C27.2539 33.6487 22.6121 37.0751 17.6005 39.8881ZM14.0805 36.3661L25.1665 25.2801C25.4761 24.9515 25.6456 24.5152 25.6389 24.0638C25.6323 23.6123 25.45 23.1812 25.1307 22.8619C24.8114 22.5426 24.3803 22.3603 23.9288 22.3536C23.4774 22.347 23.041 22.5164 22.7125 22.8261L11.6265 33.9121L14.0805 36.3661Z" fill="#008060" />
+                    </svg>
+
+                    <h4 className='text-xl font-medium'>Banco de problemas</h4>
+                    <p className='font-normal text-base text-[#51596C] text-start'>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+                    <a href="#" className='text-[#008060] font-medium flex flex-row items-center  space-x-3'><span>Link</span>  <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M0.484835 0.734835C0.631282 0.588388 0.868718 0.588388 1.01517 0.734835L5.51516 5.23484C5.66161 5.38128 5.66161 5.61872 5.51516 5.76516L1.01517 10.2652C0.868718 10.4116 0.631282 10.4116 0.484835 10.2652C0.338388 10.1187 0.338388 9.88128 0.484835 9.73483L4.71967 5.5L0.484835 1.26517C0.338388 1.11872 0.338388 0.881282 0.484835 0.734835Z" fill="#008060" />
+                    </svg>
+                    </a>
+                </div>
+                <div className='flex flex-col space-y-3'>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 16H32C30.8 16 30 16.8 30 18V32H20V34C20 35.2 20.8 36 22 36H32C32 33.8 33.8 32 36 32C38.2 32 40 33.8 40 36H42C43.2 36 44 35.2 44 34V26L40 16Z" fill="#008060" />
+                        <path opacity="0.3" d="M40 36C40 38.2 38.2 40 36 40C33.8 40 32 38.2 32 36C32 33.8 33.8 32 36 32C38.2 32 40 33.8 40 36ZM30 8C30 6.8 29.2 6 28 6H6C4.8 6 4 6.8 4 8V26C4 27.2 4.8 28 6 28H30V8ZM12 32C9.8 32 8 33.8 8 36C8 38.2 9.8 40 12 40C14.2 40 16 38.2 16 36C16 33.8 14.2 32 12 32Z" fill="#008060" />
+                    </svg>
+
+
+                    <h4 className='text-xl font-medium'>Proveedores</h4>
+                    <p className='font-normal text-base text-[#51596C] text-start'>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+                    <a href="#" className='text-[#008060] font-medium flex flex-row items-center  space-x-3'><span>Link</span>  <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M0.484835 0.734835C0.631282 0.588388 0.868718 0.588388 1.01517 0.734835L5.51516 5.23484C5.66161 5.38128 5.66161 5.61872 5.51516 5.76516L1.01517 10.2652C0.868718 10.4116 0.631282 10.4116 0.484835 10.2652C0.338388 10.1187 0.338388 9.88128 0.484835 9.73483L4.71967 5.5L0.484835 1.26517C0.338388 1.11872 0.338388 0.881282 0.484835 0.734835Z" fill="#008060" />
+                    </svg>
+                    </a>
+                </div>
+                <div className='flex flex-col space-y-3'>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.3" d="M28 6V40H4V6C4 4.8 4.8 4 6 4H26C27.2 4 28 4.8 28 6ZM22 26V22C22 19.4 20.4 17.1999 18 16.3999V14C18 12.8 17.2 12 16 12C14.8 12 14 12.8 14 14V16.3999C11.6 17.1999 10 19.4 10 22V26C10 27.2 9.2 28 8 28V30C8 31.2 8.8 32 10 32H22C23.2 32 24 31.2 24 30V28C22.8 28 22 27.2 22 26Z" fill="#008060" />
+                        <path d="M4 40H28V42C28 43.2 27.2 44 26 44H6C4.8 44 4 43.2 4 42V40ZM18 6V4H14V6C14 7.2 14.8 8 16 8C17.2 8 18 7.2 18 6ZM13 32C13 33.6 14.4 35 16 35C17.6 35 19 33.6 19 32H13ZM43.4 24C43.4 22.8 42.6 22 41.4 22H35.2C34 22 33.2 22.8 33.2 24C33.2 25.2 34 26 35.2 26H41.4C42.4 26 43.4 25.2 43.4 24ZM34 16C33.2 16 32.4 15.6 32.2 14.8C31.8 13.8 32.2 12.6 33.2 12.2L38.2 10C39.2 9.6 40.4 10 40.8 11C41.2 12 40.8 13.2001 39.8 13.6001L34.8 15.8C34.6 16 34.2 16 34 16ZM39 38.2C38.8 38.2 38.4 38.2 38.2 38L33.2 35.8C32.2 35.4 31.8 34.2 32.2 33.2C32.6 32.2 33.8 31.8 34.8 32.2L39.8 34.3999C40.8 34.7999 41.2 36 40.8 37C40.4 37.8 39.8 38.2 39 38.2Z" fill="#008060" />
+                    </svg>
+
+
+                    <h4 className='text-xl font-medium'>Subscripciones </h4>
+                    <p className='font-normal text-base text-[#51596C] text-start'>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+                    <a href="#" className='text-[#008060] font-medium flex flex-row items-center  space-x-3'><span>Link</span>  <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M0.484835 0.734835C0.631282 0.588388 0.868718 0.588388 1.01517 0.734835L5.51516 5.23484C5.66161 5.38128 5.66161 5.61872 5.51516 5.76516L1.01517 10.2652C0.868718 10.4116 0.631282 10.4116 0.484835 10.2652C0.338388 10.1187 0.338388 9.88128 0.484835 9.73483L4.71967 5.5L0.484835 1.26517C0.338388 1.11872 0.338388 0.881282 0.484835 0.734835Z" fill="#008060" />
+                    </svg>
+                    </a>
                 </div>
             </div>
         </div>

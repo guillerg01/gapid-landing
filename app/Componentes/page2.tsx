@@ -3,7 +3,7 @@ import React from 'react'
 
 function Page2() {
     return (
-        <div className="px-20 md:px-48 py-4 pt-20 text-black w-full h-full flex flex-col ">
+        <div className="px-20 md:px-48 py-4 pt-24 text-black w-full h-full flex flex-col ">
             <h2 className="text-[#00221C] text-4xl font-medium mx-auto">
                 Take the best path forward
             </h2>
@@ -13,7 +13,7 @@ function Page2() {
             </p>
 
             <div className="flex flex-row justify-between gap-4 my-4">
-                <div className="flex flex-row space-x-4 bg-[#0080601A] rounded-md p-1">
+                <div className="flex flex-row space-x-4 bg-[#0080601A] rounded-md p-4">
                     <svg width="45" height="40" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.2 6.5332L24.3833 12.7165C24.85 13.1832 24.85 13.8832 24.3833 14.3499L20.5333 18.1999L13.5333 11.1999L18.2 6.5332ZM2.68334 14.3499L8.86665 20.5332L13.5333 15.8665L6.53332 8.86654L2.68334 12.7165C2.21667 13.1832 2.21667 13.8832 2.68334 14.3499Z" fill="#008060" />
                         <path opacity="0.3" d="M20.5333 18.1997L14.35 24.383C13.8833 24.8497 13.1833 24.8497 12.7166 24.383L8.86664 20.533L15.8666 13.533L20.5333 18.1997ZM12.7166 2.68301L6.5333 8.86634L11.2 13.533L18.2 6.53301L14.35 2.68301C13.8833 2.21634 13.1833 2.21634 12.7166 2.68301Z" fill="#008060" />

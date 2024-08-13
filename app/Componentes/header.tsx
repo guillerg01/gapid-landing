@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex fixed top-0 h-[70px] w-screen flex-row bg-white px-20 md:px-48 justify-between items-center">
+    <header className="flex fixed z-30 top-0 h-[70px] w-screen flex-row bg-white px-20 md:px-48 justify-between items-center">
       <svg className="w-36 h-12"
         width="140"
         height="47"
@@ -56,15 +56,15 @@ export default function Header() {
           <span className="leading-[22px]">Convocatorias</span>
           <span>Proveedores</span>
           <span>Precios</span>
-              </div>
-              <div className="w-[1px]  h-9 bg-[#00221C1A]"></div>
+        </div>
+        <div className="w-[1px]  h-9 bg-[#00221C1A]"></div>
         <div className="flex flex-row space-x-5 items-center">  <span className="text-nowrap font-roboto text-base text-center">Iniciar Sesíon</span>
-                  <div className="relative">
-                      <svg className="absolute top-[0.7rem] left-4" width="16" height="16" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
-<path d="M11 6C11 7.65685 9.65685 9 8 9C6.34315 9 5 7.65685 5 6C5 4.34315 6.34315 3 8 3C9.65685 3 11 4.34315 11 6Z" fill="white"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM8 1C4.13401 1 1 4.13401 1 8C1 9.65343 1.57326 11.173 2.53186 12.3707C3.24293 11.2252 4.80464 10 8.00001 10C11.1954 10 12.7571 11.2252 13.4681 12.3707C14.4267 11.173 15 9.65343 15 8C15 4.13401 11.866 1 8 1Z" fill="white"/>
-</svg>
- <button className="pl-6 text-white w-[8.5rem] h-10 bg-[#008060] rounded-md text-base font-roboto">Registrarse</button></div></div>
+          <div className="relative">
+            <svg className="absolute top-[0.7rem] left-4" width="16" height="16" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 6C11 7.65685 9.65685 9 8 9C6.34315 9 5 7.65685 5 6C5 4.34315 6.34315 3 8 3C9.65685 3 11 4.34315 11 6Z" fill="white" />
+              <path fillRule="evenodd" clipRule="evenodd" d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM8 1C4.13401 1 1 4.13401 1 8C1 9.65343 1.57326 11.173 2.53186 12.3707C3.24293 11.2252 4.80464 10 8.00001 10C11.1954 10 12.7571 11.2252 13.4681 12.3707C14.4267 11.173 15 9.65343 15 8C15 4.13401 11.866 1 8 1Z" fill="white" />
+            </svg>
+            <button className="pl-6 text-white w-[8.5rem] h-10 bg-[#008060] rounded-md text-base font-roboto">Registrarse</button></div></div>
       </div>
     </header>
   );
