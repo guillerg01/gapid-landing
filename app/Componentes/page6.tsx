@@ -3,25 +3,56 @@ import React from "react";
 
 function Page6() {
     return (
-        <div className="pr-20 md:px-48 py-10  text-black w-full h-full flex flex-col ">
+        <div className="pr-20 md:px-48 py-32 bg-[#FDC9941A]  text-black w-full h-full flex flex-col ">
             <div className="mx-auto space-y-5">
                 {" "}
                 <h3 className="text-4xl font-medium text-[#00221C] mx-auto">
-                    All about Space
+                    Nuestros clientes opinan
                 </h3>
-                <h4 className="text-lg text-[#51596C] font-normal mx-auto">
-                    Explore all Space guides and resources.
-                </h4>
-            </div>
-
-            <div className="flex flex-row justify-between pt-20 text-white">
-
 
             </div>
-            <div className="font-normal text-xs justify-center items-center text-center text-[#00221C] mx-auto py-10 flex flex-col">
 
-                <span>Want to read more?</span>
-                <a href="#" className="text-base text-[#008060] font-medium">Explore all Space resources</a>
+            <div className="flex flex-row justify-between gap-6 pt-20 text-white">
+                <div className="p-4 flex flex-col space-y-3 shadow shadow-[#8C98A420] rounded-md bg-[#FFFFFF]">
+                    <p className="font-normal text-xl text-[#00221C]">“ This is a beautiful template with exciting components and endless features. ”</p>
+                    <div className="flex flex-row items-center space-x-6">
+                        <Image src={'/Image2.png'} alt="image" height={2000} width={2000} className="size-11 rounded-full"></Image>
+                        <div className=" flex flex-col space-y-1">
+                            <h4 className="font-medium text-lg text-[#00221C]">Andrea</h4>
+                            <span className="font-normal text-lg text-[#677788]">Ministro del CITMA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="p-4 flex flex-col space-y-3 shadow shadow-[#8C98A420] rounded-md bg-[#FFFFFF]">
+                    <p className="font-normal text-xl text-[#00221C]">“ This is a beautiful template with exciting components and endless features. ”</p>
+                    <div className="flex flex-row items-center space-x-6">
+                        <Image src={'/Image2.png'} alt="image" height={2000} width={2000} className="size-11 rounded-full"></Image>
+                        <div className=" flex flex-col space-y-1">
+                            <h4 className="font-medium text-lg text-[#00221C]">Andrea</h4>
+                            <span className="font-normal text-lg text-[#677788]">Ministro del CITMA</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="p-4 flex flex-col space-y-3 shadow shadow-[#8C98A420] rounded-md bg-[#FFFFFF]">
+                    <p className="font-normal text-xl text-[#00221C]">“ This is a beautiful template with exciting components and endless features. ”</p>
+                    <div className="flex flex-row items-center space-x-6">
+                        <Image src={'/Image2.png'} alt="image" height={2000} width={2000} className="size-11 rounded-full"></Image>
+                        <div className=" flex flex-col space-y-1">
+                            <h4 className="font-medium text-lg text-[#00221C]">Andrea</h4>
+                            <span className="font-normal text-lg text-[#677788]">Ministro del CITMA</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="font-normal text-xs space-x-6 justify-center items-center text-center text-[#00221C] mx-auto py-10 flex flex-row">
+                <div className="size-4 border border-[#008060] rounded-full flex justify-center items-center"><div className="bg-[#008060] size-1 rounded-full"></div></div>
+                <div className="bg-[#BDC5D1] rounded-full size-1 "></div>
+                <div className="bg-[#BDC5D1] rounded-full size-1 "></div>
+                <div className="bg-[#BDC5D1] rounded-full size-1 "></div>
+
+
             </div>
         </div>
     );
