@@ -28,11 +28,11 @@ export default function Convocatorias() {
         </div>
         <div className="border-b-2 border-[ #00221C1A] bg-white  fixed mt-[18.375rem] px-48 w-screen h-[4.125rem] flex items-center z-20">
           <div className="flex flex-row gap-2 ">
-            <div className="cursor-pointer  hover:text-[#008060] ">
+            <div className="cursor-pointer  hover:text-[#008060] text-[#223B41] ">
               Convocatorias
             </div>
             <div> /</div>
-            <div className="cursor-pointer hover:text-[#008060] ">
+            <div className="cursor-pointer hover:text-[#008060] text-[#223B41] ">
               Programas Sectoriales
             </div>
           </div>
