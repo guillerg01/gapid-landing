@@ -5,7 +5,7 @@ export default function Detalles() {
     <div className="pb-20">
       <Header></Header>
 
-      <div className="fixed top-[5rem] w-screen h-[13.38rem] bg-[#005C45] flex justify-center items-center p-5">
+      <div className="fixed top-[70px] w-screen h-[13.38rem] bg-[#005C45] flex justify-center items-center p-5">
         <div className=" absolute  w-screen   top-0 left-24">
           <img src="./shape-1-soft-light.png "></img>
         </div>
@@ -24,7 +24,7 @@ export default function Detalles() {
         </div>
       </div>
 
-      <div className="border-b-2 border-[ #00221C1A] bg-white  fixed mt-[18.375rem] px-48 w-screen h-[4.125rem] text-[#223B41] flex items-center z-20">
+      <div className="border-b-2 border-[ #00221C1A] bg-white  fixed mt-[284px] px-48 w-screen h-[4.125rem] text-[#223B41] flex items-center z-20">
         <div className="flex flex-row gap-2 ">
           <div className="cursor-pointer  hover:text-[#008060] ">
             Convocatorias

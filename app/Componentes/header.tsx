@@ -1,4 +1,12 @@
+'use client'
+import { useParams, useRouter, useSelectedLayoutSegments } from "next/navigation";
+
 export default function Header() {
+  const router = useRouter()
+
+  const segments = useSelectedLayoutSegments();
+  console.log(segments);
+
   return (
     <header className="flex fixed z-30 top-0 h-[70px] w-screen flex-row bg-white px-20 md:px-48 justify-between items-center">
       <svg className="w-36 h-12"
@@ -53,7 +61,7 @@ export default function Header() {
       <div className="flex flex-row font-roboto items-center text-[#51596C] space-x-7 font-normal text-[16px] leading-[22px]">
         <div className=" flex-row space-x-9 lg:flex hidden">
           <span className="leading-[22px] text-[#008060]">Servicios</span>
-          <span className="leading-[22px]">Convocatorias</span>
+          <span onClick={() => router.push('/convocatorias')} className="leading-[22px]">Convocatorias</span>
           <span>Proveedores</span>
           <span>Precios</span>
         </div>

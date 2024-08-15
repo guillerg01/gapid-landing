@@ -4,17 +4,17 @@ import Header from "../Componentes/header";
 import { useState } from "react";
 export default function Convocatorias() {
   return (
-    <div className="bg-white">
+    <div className="bg-white pb-20">
       <Header></Header>
 
       <div className=" flex flex-col gap-[7.5rem] ">
-        <div className="fixed top-[5rem] w-screen h-[13.38rem] bg-[#005C45] flex justify-center items-center p-5">
-          <div className=" absolute  w-screen   top-0 left-24">
+        <div className="fixed  top-[70px] w-screen h-[13.38rem]  bg-[#005C45] flex justify-center items-center p-5">
+          <div className=" absolute    top-0 left-24">
             <img src="./shape-1-soft-light.png "></img>
           </div>
           <div className=" relative ">
             <input
-              className="  placeholder-[#97A4AF] w-[43.75rem] h-[5.375rem] bg-white flex items-center justify-center rounded-lg p-5"
+              className="  placeholder-[#97A4AF] pr-[6rem] w-[43.75rem] h-[5.375rem] bg-white flex items-center justify-center rounded-lg p-5"
               type="text"
               placeholder="Search for answers"
             ></input>
@@ -22,11 +22,11 @@ export default function Convocatorias() {
               <img src="./Union.svg" className=" w-7 "></img>
             </div>
           </div>
-          <div className=" absolute  w-screen  -right-[90rem]">
+          <div className=" absolute   right-0">
             <img src="./Vector.svg "></img>
           </div>
         </div>
-        <div className="border-b-2 border-[ #00221C1A] bg-white  fixed mt-[18.375rem] px-48 w-screen h-[4.125rem] flex items-center z-20">
+        <div className="border-b-2 border-[#00221C1A] bg-white  fixed top-0 mt-[284px] px-48 w-screen h-[4.125rem] flex items-center z-20">
           <div className="flex flex-row gap-2 ">
             <div className="cursor-pointer  hover:text-[#008060] text-[#223B41] ">
               Convocatorias
@@ -42,12 +42,15 @@ export default function Convocatorias() {
           <div className="border-l-2 border-[#00221C1A]  p-3 hover:text-[#008060] hover:border-[#008060]">
             Programas Nacionales (6)
           </div>
+
           <div className="border-l-2 border-[#00221C1A] hover:text-[#008060] hover:border-[#008060]  p-3">
             Programas Nacionales (6)
           </div>
+
           <div className="border-l-2 border-[#00221C1A]  p-3 hover:text-[#008060] hover:border-[#008060]">
             Programas Nacionales (6)
           </div>
+
           <div className="border-l-2 border-[#00221C1A] p-3 hover:border-[#008060] hover:text-[#008060]">
             Programas Nacionales (6)
           </div>
