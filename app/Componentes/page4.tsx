@@ -3,7 +3,7 @@ import React from 'react'
 
 function Page4() {
     return (
-        <div className="pr-20 md:pr-48 py-10  text-black w-full h-full flex flex-col ">
+        <div className="pr-20 md:pr-48 py-10  text-black w-full h-screen flex flex-col ">
             <div className='flex flex-row'>
                 <div className='w-[60%] h-full'><Image alt='Image 1' src="/Image.png" width={2000} height={2000} className='w-full h-auto'></Image></div>
                 <div className='w-[40%] h-full flex flex-col space-y-10 p-10 pl-20'>

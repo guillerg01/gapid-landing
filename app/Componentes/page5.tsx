@@ -3,7 +3,7 @@ import React from "react";
 
 function Page5() {
     return (
-        <div className="pr-20 md:px-48 py-10  text-black w-full h-full flex flex-col ">
+        <div className="pr-20 md:px-48 py-10  text-black w-full h-screen flex flex-col ">
             <div className="mx-auto space-y-5">
                 {" "}
                 <h3 className="text-4xl font-medium text-[#00221C] mx-auto">
