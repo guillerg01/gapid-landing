@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
-function Page9() {
+function Footer() {
     return (
         <div className="pr-20 text-white   md:px-48 pt-20 h-[479px] bg-[#005C45]  justify-start items-center  relative overflow-hidden  mt-0 w-full  flex flex-col space-y-4">
 
@@ -67,4 +67,4 @@ function Page9() {
     );
 }
 
-export default Page9;
+export default Footer;

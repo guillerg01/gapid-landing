@@ -40,7 +40,7 @@ function Page7() {
                 <div className=" p-7 bg-[#FDC9941A] h-[100px] w-full flex flex-col justify-center items-center space-y-4">
                     <span className="font-normal text-sm text-[#00221C]"> Still have questions?</span>
                     <a className="text-[#008060] font-medium text-base flex flex-row space-x-2 items-center"><span>Contact our friendly support team </span><svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.484835 0.949679C0.631282 0.803232 0.868718 0.803232 1.01517 0.949679L5.51516 5.44968C5.66161 5.59613 5.66161 5.83356 5.51516 5.98001L1.01517 10.48C0.868718 10.6265 0.631282 10.6265 0.484835 10.48C0.338388 10.3336 0.338388 10.0961 0.484835 9.94968L4.71967 5.71484L0.484835 1.48001C0.338388 1.33356 0.338388 1.09613 0.484835 0.949679Z" fill="#008060" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M0.484835 0.949679C0.631282 0.803232 0.868718 0.803232 1.01517 0.949679L5.51516 5.44968C5.66161 5.59613 5.66161 5.83356 5.51516 5.98001L1.01517 10.48C0.868718 10.6265 0.631282 10.6265 0.484835 10.48C0.338388 10.3336 0.338388 10.0961 0.484835 9.94968L4.71967 5.71484L0.484835 1.48001C0.338388 1.33356 0.338388 1.09613 0.484835 0.949679Z" fill="#008060" />
                     </svg>
                     </a>
                 </div>
@@ -54,7 +54,7 @@ function Page7() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <g clip-path="url(#clip0_1_64322)">
+                <g clipPath="url(#clip0_1_64322)">
                     <path d="M0 293.451H1520V0.726562L0 293.451Z" fill="#005C45" />
                 </g>
                 <defs>

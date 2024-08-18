@@ -1,3 +1,4 @@
+import Footer from "../Componentes/Footer";
 import Header from "../Componentes/header";
 
 export default function Detalles() {
@@ -136,6 +137,7 @@ export default function Detalles() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import Footer from "../Componentes/Footer";
 import Header from "../Componentes/header";
 
 export default function Eventos() {
@@ -193,6 +194,7 @@ export default function Eventos() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

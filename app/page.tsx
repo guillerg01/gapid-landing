@@ -9,8 +9,9 @@ import Page5 from "./Componentes/page5";
 import Page6 from "./Componentes/page6";
 import Page7 from "./Componentes/page7";
 import Page8 from "./Componentes/page8";
-import Page9 from "./Componentes/page9";
-import Page10 from "./Componentes/page10";
+import Footer from "./Componentes/Footer";
+
+
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       <Page6></Page6>
       <Page7></Page7>
       <Page8></Page8>
-      <Page9></Page9>
+      <Footer></Footer>
 
     </main>
   );

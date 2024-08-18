@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "../Componentes/Footer";
 import Header from "../Componentes/header";
 import { useState } from "react";
 export default function Convocatorias() {
@@ -177,6 +178,7 @@ export default function Convocatorias() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
